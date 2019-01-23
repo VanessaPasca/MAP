@@ -1,0 +1,3056 @@
+ExeStack:
+		v:=2;
+		print(v)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+SymTable:
+		v -> 2
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+SymTable:
+		v -> 2
+Output:
+		2
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v:=2;
+		print(v)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+SymTable:
+		v -> 2
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+SymTable:
+		v -> 2
+Output:
+		2
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v:=10;(new( a , 22 );fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));))
+		(print(v)print(rh( a );))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v:=10;
+		(new( a , 22 );fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));)
+		(print(v)print(rh( a );))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(new( a , 22 );fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));)
+		(print(v)print(rh( a );))
+SymTable:
+		v -> 10
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		new( a , 22 );
+		fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));
+		(print(v)print(rh( a );))
+SymTable:
+		v -> 10
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));
+		(print(v)print(rh( a );))
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		(print(v)print(rh( a );))
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(v)
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(v)
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+		a:=2 - 2;
+		(IF (a) THEN (v:=2;) ELSE (v:=3;)print(v))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(IF (a) THEN (v:=2;) ELSE (v:=3;)print(v))
+SymTable:
+		a -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (a) THEN (v:=2;) ELSE (v:=3;)
+		print(v)
+SymTable:
+		a -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v:=3;
+		print(v)
+SymTable:
+		a -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+SymTable:
+		a -> 0
+		v -> 3
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+SymTable:
+		a -> 0
+		v -> 3
+Output:
+		3
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v:=2;
+		print(v)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+SymTable:
+		v -> 2
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+SymTable:
+		v -> 2
+Output:
+		2
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v:=2;
+		print(v)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+SymTable:
+		v -> 2
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+SymTable:
+		v -> 2
+Output:
+		2
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v:=10;(new( a , 22 );fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));))
+		(print(v)print(rh( a );))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v:=10;
+		(new( a , 22 );fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));)
+		(print(v)print(rh( a );))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(new( a , 22 );fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));)
+		(print(v)print(rh( a );))
+SymTable:
+		v -> 10
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		new( a , 22 );
+		fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));
+		(print(v)print(rh( a );))
+SymTable:
+		v -> 10
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));
+		(print(v)print(rh( a );))
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		(print(v)print(rh( a );))
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(v)
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(v)
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+		print(v)
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 32
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 32
+Output:
+		10
+		22
+		32
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 32
+Output:
+		10
+		22
+		32
+		30
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+		v:=2;
+		print(v)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+SymTable:
+		v -> 2
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+SymTable:
+		v -> 2
+Output:
+		2
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v:=10;new( v , 20 );)
+		((new( a , 22 );wH( a , 30 );)(print(a)(print(rh( a );)a:=0;)))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v:=10;
+		new( v , 20 );
+		((new( a , 22 );wH( a , 30 );)(print(a)(print(rh( a );)a:=0;)))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		new( v , 20 );
+		((new( a , 22 );wH( a , 30 );)(print(a)(print(rh( a );)a:=0;)))
+SymTable:
+		v -> 10
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		((new( a , 22 );wH( a , 30 );)(print(a)(print(rh( a );)a:=0;)))
+SymTable:
+		v -> 1
+Output:
+FileTable
+Heap
+		1 --> 20
+--------------------------
+ExeStack:
+		(new( a , 22 );wH( a , 30 );)
+		(print(a)(print(rh( a );)a:=0;))
+SymTable:
+		v -> 1
+Output:
+FileTable
+Heap
+		1 --> 20
+--------------------------
+ExeStack:
+		new( a , 22 );
+		wH( a , 30 );
+		(print(a)(print(rh( a );)a:=0;))
+SymTable:
+		v -> 1
+Output:
+FileTable
+Heap
+		1 --> 20
+--------------------------
+ExeStack:
+		wH( a , 30 );
+		(print(a)(print(rh( a );)a:=0;))
+SymTable:
+		a -> 2
+		v -> 1
+Output:
+FileTable
+Heap
+		1 --> 20
+		2 --> 22
+--------------------------
+ExeStack:
+		(print(a)(print(rh( a );)a:=0;))
+SymTable:
+		a -> 2
+		v -> 1
+Output:
+FileTable
+Heap
+		1 --> 20
+		2 --> 30
+--------------------------
+ExeStack:
+		print(a)
+		(print(rh( a );)a:=0;)
+SymTable:
+		a -> 2
+		v -> 1
+Output:
+FileTable
+Heap
+		1 --> 20
+		2 --> 30
+--------------------------
+ExeStack:
+		(print(rh( a );)a:=0;)
+SymTable:
+		a -> 2
+		v -> 1
+Output:
+		2
+FileTable
+Heap
+		1 --> 20
+		2 --> 30
+--------------------------
+ExeStack:
+		print(rh( a );)
+		a:=0;
+SymTable:
+		a -> 2
+		v -> 1
+Output:
+		2
+FileTable
+Heap
+		1 --> 20
+		2 --> 30
+--------------------------
+ExeStack:
+		a:=0;
+SymTable:
+		a -> 2
+		v -> 1
+Output:
+		2
+		30
+FileTable
+Heap
+		1 --> 20
+		2 --> 30
+--------------------------
+ExeStack:
+SymTable:
+		a -> 0
+		v -> 1
+Output:
+		2
+		30
+FileTable
+Heap
+		1 --> 20
+		2 --> 30
+--------------------------
+ExeStack:
+		(v:=10;(new( a , 22 );fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));))
+		(print(v)print(rh( a );))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v:=10;
+		(new( a , 22 );fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));)
+		(print(v)print(rh( a );))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(new( a , 22 );fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));)
+		(print(v)print(rh( a );))
+SymTable:
+		v -> 10
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		new( a , 22 );
+		fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));
+		(print(v)print(rh( a );))
+SymTable:
+		v -> 10
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));
+		(print(v)print(rh( a );))
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		(print(v)print(rh( a );))
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(v)
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(v)
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+		print(v)
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 32
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 32
+Output:
+		10
+		22
+		32
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 32
+Output:
+		10
+		22
+		32
+		30
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+		(v:=10;(new( a , 22 );fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));))
+		(print(v)print(rh( a );))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v:=10;
+		(new( a , 22 );fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));)
+		(print(v)print(rh( a );))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(new( a , 22 );fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));)
+		(print(v)print(rh( a );))
+SymTable:
+		v -> 10
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		new( a , 22 );
+		fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));
+		(print(v)print(rh( a );))
+SymTable:
+		v -> 10
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));
+		(print(v)print(rh( a );))
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		(print(v)print(rh( a );))
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(v)
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(v)
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+		print(v)
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 32
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 32
+Output:
+		10
+		22
+		32
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 32
+Output:
+		10
+		22
+		32
+		30
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+		(v:=10;(new( a , 22 );fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));))
+		(print(v)print(rh( a );))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v:=10;
+		(new( a , 22 );fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));)
+		(print(v)print(rh( a );))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(new( a , 22 );fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));)
+		(print(v)print(rh( a );))
+SymTable:
+		v -> 10
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		new( a , 22 );
+		fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));
+		(print(v)print(rh( a );))
+SymTable:
+		v -> 10
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));
+		(print(v)print(rh( a );))
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		(print(v)print(rh( a );))
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(v)
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(v)
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+		print(v)
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 32
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 32
+Output:
+		10
+		22
+		32
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 32
+Output:
+		10
+		22
+		32
+		30
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+		v:=2;
+		print(v)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+SymTable:
+		v -> 2
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+SymTable:
+		v -> 2
+Output:
+		2
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v:=10;(new( a , 22 );fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));))
+		(print(v)print(rh( a );))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v:=10;
+		(new( a , 22 );fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));)
+		(print(v)print(rh( a );))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(new( a , 22 );fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));)
+		(print(v)print(rh( a );))
+SymTable:
+		v -> 10
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		new( a , 22 );
+		fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));
+		(print(v)print(rh( a );))
+SymTable:
+		v -> 10
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		fork( ((wH( a , 30 );v:=32;)(print(v)print(rh( a );))));
+		(print(v)print(rh( a );))
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		(print(v)print(rh( a );))
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(v)
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(v)
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+FileTable
+Heap
+		1 --> 22
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 10
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+		print(v)
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 32
+Output:
+		10
+		22
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+		print(rh( a );)
+SymTable:
+		a -> 1
+		v -> 32
+Output:
+		10
+		22
+		32
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		v -> 32
+Output:
+		10
+		22
+		32
+		30
+FileTable
+Heap
+		1 --> 30
+--------------------------
+ExeStack:
+		(v1:=0;v2:=1;)
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v1:=0;
+		v2:=1;
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v2:=1;
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+		v1 -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))
+		IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v1:=0;v2:=1;)
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v1:=0;
+		v2:=1;
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v2:=1;
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+		v1 -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))
+		IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v1:=0;v2:=1;)
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v1:=0;
+		v2:=1;
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v2:=1;
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+		v1 -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))
+		IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v1:=0;v2:=1;)
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		a:=2 - 2;
+		(IF (a) THEN (v:=2;) ELSE (v:=3;)print(v))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(IF (a) THEN (v:=2;) ELSE (v:=3;)print(v))
+SymTable:
+		a -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (a) THEN (v:=2;) ELSE (v:=3;)
+		print(v)
+SymTable:
+		a -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v:=3;
+		print(v)
+SymTable:
+		a -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+SymTable:
+		a -> 0
+		v -> 3
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+SymTable:
+		a -> 0
+		v -> 3
+Output:
+		3
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v1:=0;v2:=1;)
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v1:=0;
+		v2:=1;
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v2:=1;
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+		v1 -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))
+		IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v1:=0;v2:=1;)
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v1:=0;
+		v2:=1;
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v2:=1;
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+		v1 -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v1 = 0 or v2 = 0;) THEN (print(1)) ELSE (print(0))
+		IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v1 = 0 and v1 = 0;) THEN (print(1)) ELSE (print(0))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v1:=0;v2:=1;)
+		(IF (v1 == 0 or v2 == 0;) THEN (print(1)) ELSE (print(0))IF (v1 == 0 and v1 == 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v1:=0;
+		v2:=1;
+		(IF (v1 == 0 or v2 == 0;) THEN (print(1)) ELSE (print(0))IF (v1 == 0 and v1 == 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v2:=1;
+		(IF (v1 == 0 or v2 == 0;) THEN (print(1)) ELSE (print(0))IF (v1 == 0 and v1 == 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+		v1 -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(IF (v1 == 0 or v2 == 0;) THEN (print(1)) ELSE (print(0))IF (v1 == 0 and v1 == 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v1 == 0 or v2 == 0;) THEN (print(1)) ELSE (print(0))
+		IF (v1 == 0 and v1 == 0;) THEN (print(1)) ELSE (print(0))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(1)
+		IF (v1 == 0 and v1 == 0;) THEN (print(1)) ELSE (print(0))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v1 == 0 and v1 == 0;) THEN (print(1)) ELSE (print(0))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+		1
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(1)
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+		1
+FileTable
+Heap
+--------------------------
+ExeStack:
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+		1
+		1
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v1:=0;v2:=1;)
+		(IF (v1 == 0 or v2 == 0;) THEN (print(1)) ELSE (print(0))IF (v1 == 0 and v2 == 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v1:=0;
+		v2:=1;
+		(IF (v1 == 0 or v2 == 0;) THEN (print(1)) ELSE (print(0))IF (v1 == 0 and v2 == 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v2:=1;
+		(IF (v1 == 0 or v2 == 0;) THEN (print(1)) ELSE (print(0))IF (v1 == 0 and v2 == 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+		v1 -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(IF (v1 == 0 or v2 == 0;) THEN (print(1)) ELSE (print(0))IF (v1 == 0 and v2 == 0;) THEN (print(1)) ELSE (print(0)))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v1 == 0 or v2 == 0;) THEN (print(1)) ELSE (print(0))
+		IF (v1 == 0 and v2 == 0;) THEN (print(1)) ELSE (print(0))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(1)
+		IF (v1 == 0 and v2 == 0;) THEN (print(1)) ELSE (print(0))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v1 == 0 and v2 == 0;) THEN (print(1)) ELSE (print(0))
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+		1
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(0)
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+		1
+FileTable
+Heap
+--------------------------
+ExeStack:
+SymTable:
+		v1 -> 0
+		v2 -> 1
+Output:
+		1
+		0
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v:=0;
+		((v++;print(v))(v--;print(v)))
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		((v++;print(v))(v--;print(v)))
+SymTable:
+		v -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v++;print(v))
+		(v--;print(v))
+SymTable:
+		v -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v++;
+		print(v)
+		(v--;print(v))
+SymTable:
+		v -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+		(v--;print(v))
+SymTable:
+		v -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v--;print(v))
+SymTable:
+		v -> 1
+Output:
+		1
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v--;
+		print(v)
+SymTable:
+		v -> 1
+Output:
+		1
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+SymTable:
+		v -> 0
+Output:
+		1
+FileTable
+Heap
+--------------------------
+ExeStack:
+SymTable:
+		v -> 0
+Output:
+		1
+		0
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v:=0;
+		Repeat (v++;print(v))until v == 10;
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		Repeat (v++;print(v))until v == 10;
+SymTable:
+		v -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		((v++;print(v))while( not v == 10)(v++;print(v)))
+SymTable:
+		v -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v++;print(v))
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v++;
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 0
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 1
+Output:
+		1
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v++;print(v))
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 1
+Output:
+		1
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v++;
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 1
+Output:
+		1
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 2
+Output:
+		1
+FileTable
+Heap
+--------------------------
+ExeStack:
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 2
+Output:
+		1
+		2
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v++;print(v))
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 2
+Output:
+		1
+		2
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v++;
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 2
+Output:
+		1
+		2
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 3
+Output:
+		1
+		2
+FileTable
+Heap
+--------------------------
+ExeStack:
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 3
+Output:
+		1
+		2
+		3
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v++;print(v))
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 3
+Output:
+		1
+		2
+		3
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v++;
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 3
+Output:
+		1
+		2
+		3
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 4
+Output:
+		1
+		2
+		3
+FileTable
+Heap
+--------------------------
+ExeStack:
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 4
+Output:
+		1
+		2
+		3
+		4
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v++;print(v))
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 4
+Output:
+		1
+		2
+		3
+		4
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v++;
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 4
+Output:
+		1
+		2
+		3
+		4
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 5
+Output:
+		1
+		2
+		3
+		4
+FileTable
+Heap
+--------------------------
+ExeStack:
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 5
+Output:
+		1
+		2
+		3
+		4
+		5
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v++;print(v))
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 5
+Output:
+		1
+		2
+		3
+		4
+		5
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v++;
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 5
+Output:
+		1
+		2
+		3
+		4
+		5
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 6
+Output:
+		1
+		2
+		3
+		4
+		5
+FileTable
+Heap
+--------------------------
+ExeStack:
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 6
+Output:
+		1
+		2
+		3
+		4
+		5
+		6
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v++;print(v))
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 6
+Output:
+		1
+		2
+		3
+		4
+		5
+		6
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v++;
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 6
+Output:
+		1
+		2
+		3
+		4
+		5
+		6
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 7
+Output:
+		1
+		2
+		3
+		4
+		5
+		6
+FileTable
+Heap
+--------------------------
+ExeStack:
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 7
+Output:
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v++;print(v))
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 7
+Output:
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v++;
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 7
+Output:
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 8
+Output:
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+FileTable
+Heap
+--------------------------
+ExeStack:
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 8
+Output:
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v++;print(v))
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 8
+Output:
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v++;
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 8
+Output:
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 9
+Output:
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+FileTable
+Heap
+--------------------------
+ExeStack:
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 9
+Output:
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(v++;print(v))
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 9
+Output:
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v++;
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 9
+Output:
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(v)
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 10
+Output:
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+FileTable
+Heap
+--------------------------
+ExeStack:
+		while( not v == 10)(v++;print(v))
+SymTable:
+		v -> 10
+Output:
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+FileTable
+Heap
+--------------------------
+ExeStack:
+SymTable:
+		v -> 10
+Output:
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v:=5;
+		switch(v)case 0 : print(v)case 1 : print(v)case 2 : print(v)case 3 : print(v)default: print(1000)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		switch(v)case 0 : print(v)case 1 : print(v)case 2 : print(v)case 3 : print(v)default: print(1000)
+SymTable:
+		v -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v == 0) THEN (print(v)) ELSE (IF (v == 1) THEN (print(v)) ELSE (IF (v == 2) THEN (print(v)) ELSE (IF (v == 3) THEN (print(v)) ELSE (print(1000)))))
+SymTable:
+		v -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v == 1) THEN (print(v)) ELSE (IF (v == 2) THEN (print(v)) ELSE (IF (v == 3) THEN (print(v)) ELSE (print(1000))))
+SymTable:
+		v -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v == 2) THEN (print(v)) ELSE (IF (v == 3) THEN (print(v)) ELSE (print(1000)))
+SymTable:
+		v -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v == 3) THEN (print(v)) ELSE (print(1000))
+SymTable:
+		v -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(1000)
+SymTable:
+		v -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+SymTable:
+		v -> 5
+Output:
+		1000
+FileTable
+Heap
+--------------------------
+ExeStack:
+		v:=5;
+		switch(v)case 0 : print(v)case 1 : print(v)case 2 : print(v)case 5 : IF (6 > 7) THEN (print(6)) ELSE (print(7))default: print(1000)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		switch(v)case 0 : print(v)case 1 : print(v)case 2 : print(v)case 5 : IF (6 > 7) THEN (print(6)) ELSE (print(7))default: print(1000)
+SymTable:
+		v -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v == 0) THEN (print(v)) ELSE (IF (v == 1) THEN (print(v)) ELSE (IF (v == 2) THEN (print(v)) ELSE (IF (v == 5) THEN (IF (6 > 7) THEN (print(6)) ELSE (print(7))) ELSE (print(1000)))))
+SymTable:
+		v -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v == 1) THEN (print(v)) ELSE (IF (v == 2) THEN (print(v)) ELSE (IF (v == 5) THEN (IF (6 > 7) THEN (print(6)) ELSE (print(7))) ELSE (print(1000))))
+SymTable:
+		v -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v == 2) THEN (print(v)) ELSE (IF (v == 5) THEN (IF (6 > 7) THEN (print(6)) ELSE (print(7))) ELSE (print(1000)))
+SymTable:
+		v -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (v == 5) THEN (IF (6 > 7) THEN (print(6)) ELSE (print(7))) ELSE (print(1000))
+SymTable:
+		v -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (6 > 7) THEN (print(6)) ELSE (print(7))
+SymTable:
+		v -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(7)
+SymTable:
+		v -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+SymTable:
+		v -> 5
+Output:
+		7
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(((a:=1;b:=2;)c:=5;)switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300))
+		print(300)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		((a:=1;b:=2;)c:=5;)
+		switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300)
+		print(300)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(a:=1;b:=2;)
+		c:=5;
+		switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300)
+		print(300)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		a:=1;
+		b:=2;
+		c:=5;
+		switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300)
+		print(300)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		b:=2;
+		c:=5;
+		switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300)
+		print(300)
+SymTable:
+		a -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		c:=5;
+		switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300)
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300)
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (a * 10 == b * c) THEN ((print(a)print(b))) ELSE (IF (a * 10 == 10) THEN ((print(100)print(200))) ELSE (print(300)))
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(print(a)print(b))
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(a)
+		print(b)
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(b)
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+		1
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+		1
+		2
+FileTable
+Heap
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+		1
+		2
+		300
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(((a:=1;b:=2;)c:=5;)switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300))
+		print(300)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		((a:=1;b:=2;)c:=5;)
+		switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300)
+		print(300)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(a:=1;b:=2;)
+		c:=5;
+		switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300)
+		print(300)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		a:=1;
+		b:=2;
+		c:=5;
+		switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300)
+		print(300)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		b:=2;
+		c:=5;
+		switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300)
+		print(300)
+SymTable:
+		a -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		c:=5;
+		switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300)
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300)
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (a * 10 == b * c) THEN ((print(a)print(b))) ELSE (IF (a * 10 == 10) THEN ((print(100)print(200))) ELSE (print(300)))
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(print(a)print(b))
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(a)
+		print(b)
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(b)
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+		1
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+		1
+		2
+FileTable
+Heap
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+		1
+		2
+		300
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(((a:=1;b:=2;)c:=5;)switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300))
+		print(300)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		((a:=1;b:=2;)c:=5;)
+		switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300)
+		print(300)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(a:=1;b:=2;)
+		c:=5;
+		switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300)
+		print(300)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		a:=1;
+		b:=2;
+		c:=5;
+		switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300)
+		print(300)
+SymTable:
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		b:=2;
+		c:=5;
+		switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300)
+		print(300)
+SymTable:
+		a -> 1
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		c:=5;
+		switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300)
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		switch(a * 10)case b * c : (print(a)print(b))case 10 : (print(100)print(200))default: print(300)
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		IF (a * 10 == b * c) THEN ((print(a)print(b))) ELSE (IF (a * 10 == 10) THEN ((print(100)print(200))) ELSE (print(300)))
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		(print(a)print(b))
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(a)
+		print(b)
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(b)
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+		1
+FileTable
+Heap
+--------------------------
+ExeStack:
+		print(300)
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+		1
+		2
+FileTable
+Heap
+--------------------------
+ExeStack:
+SymTable:
+		a -> 1
+		b -> 2
+		c -> 5
+Output:
+		1
+		2
+		300
+FileTable
+Heap
+--------------------------

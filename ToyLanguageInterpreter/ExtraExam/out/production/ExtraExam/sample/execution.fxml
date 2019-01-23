@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane cacheShape="false" centerShape="false" focusTraversable="true" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1130.0" scaleShape="false" snapToPixel="false" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ExecutionController">
+   <children>
+      <Pane layoutX="14.0" layoutY="14.0">
+         <children>
+            <GridPane prefHeight="591.0" prefWidth="1250.0">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="613.0" minWidth="10.0" prefWidth="263.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="358.0" minWidth="0.0" prefWidth="263.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="391.0" minWidth="10.0" prefWidth="253.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="471.0" minWidth="10.0" prefWidth="471.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <SplitPane dividerPositions="0.14965986394557823" orientation="VERTICAL">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <Label layoutY="7.0" prefHeight="34.0" prefWidth="261.0" text="Symbol Table" />
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane prefHeight="245.0" prefWidth="255.0">
+                           <children>
+                              <TableView fx:id="tvSymbolTable" layoutY="1.0" prefHeight="245.0" prefWidth="261.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columns>
+                                  <TableColumn prefWidth="129.0" text="C1" />
+                                  <TableColumn prefWidth="130.0" text="C2" />
+                                </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+                  <SplitPane dividerPositions="0.13945578231292516" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" GridPane.columnIndex="1">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <Label layoutX="3.0" prefHeight="43.0" prefWidth="263.0" text="File Table" />
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane>
+                           <children>
+                              <TableView fx:id="tvFileTable" layoutX="-1.0" layoutY="2.0" prefHeight="248.0" prefWidth="264.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columns>
+                                  <TableColumn prefWidth="126.0" text="C1" />
+                                  <TableColumn prefWidth="138.0" text="C2" />
+                                </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+                  <SplitPane dividerPositions="0.1292517006802721" orientation="VERTICAL" GridPane.columnIndex="2">
+                    <items>
+                      <AnchorPane prefHeight="73.0" prefWidth="253.0">
+                           <children>
+                              <Label layoutX="1.0" layoutY="-1.0" prefHeight="34.0" prefWidth="252.0" text="Heap" />
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <TableView fx:id="tvHeap" layoutX="-2.0" layoutY="2.0" prefHeight="251.0" prefWidth="253.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columns>
+                                  <TableColumn prefWidth="119.0" text="C1" />
+                                  <TableColumn prefWidth="135.0" text="C2" />
+                                </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+                  <SplitPane orientation="VERTICAL" prefHeight="296.0" prefWidth="348.0" GridPane.columnIndex="3">
+                    <items>
+                        <AnchorPane layoutX="-100.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="294.0" prefWidth="512.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="77.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <SplitPane dividerPositions="0.13013698630136986" layoutX="-10.0" orientation="VERTICAL" prefHeight="294.0" prefWidth="340.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-10.0" AnchorPane.rightAnchor="277.0" AnchorPane.topAnchor="0.0">
+                                <items>
+                                  <AnchorPane prefHeight="33.0" prefWidth="363.0">
+                                       <children>
+                                          <Label layoutX="56.0" layoutY="6.0" prefHeight="27.0" prefWidth="131.0" text="Barrier Table" />
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="249.0" prefWidth="332.0">
+                                       <children>
+                                          <TableView fx:id="tvBarrierTable" layoutX="11.0" prefHeight="249.0" prefWidth="321.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                            <columns>
+                                              <TableColumn fx:id="indexColumn" prefWidth="102.0" text="C1" />
+                                              <TableColumn fx:id="countColumn" prefWidth="98.0" text="C2" />
+                                                <TableColumn fx:id="threadsColumn" prefWidth="202.0" text="C3" />
+                                            </columns>
+                                          </TableView>
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+                  <SplitPane dividerPositions="0.13310580204778158" orientation="VERTICAL" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <items>
+                      <AnchorPane prefHeight="79.0" prefWidth="252.0">
+                           <children>
+                            <AnchorPane layoutX="8.0" layoutY="-3.0" minHeight="0.0" minWidth="0.0" prefHeight="34.0" prefWidth="160.0">
+                                 <children>
+                                    <Label layoutX="-1.0" layoutY="6.0" prefHeight="33.0" prefWidth="100.0" text="Output" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <ListView fx:id="lstOut" layoutX="1.0" layoutY="-11.0" prefHeight="249.0" prefWidth="251.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+                  <SplitPane dividerPositions="0.12286689419795221" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="295.0" prefWidth="525.0" GridPane.rowIndex="1">
+                    <items>
+                      <AnchorPane prefHeight="37.0" prefWidth="534.0">
+                           <children>
+                              <Label layoutX="-1.0" layoutY="-3.0" prefHeight="34.0" prefWidth="262.0" text="Execution Stack" />
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="141.0" prefWidth="534.0" SplitPane.resizableWithParent="false">
+                           <children>
+                              <ListView fx:id="lstStack" layoutX="-3.0" layoutY="1.0" prefHeight="252.0" prefWidth="523.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <children>
+                        <AnchorPane layoutY="-7.0" prefHeight="164.0" prefWidth="100.0">
+                           <children>
+                              <SplitPane dividerPositions="0.3125" layoutX="3.0" layoutY="8.0" orientation="VERTICAL" prefHeight="163.0" prefWidth="123.0">
+                                <items>
+                                  <AnchorPane maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="38.0" prefWidth="121.0">
+                                       <children>
+                                          <Label layoutX="-5.0" layoutY="9.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="36.0" prefWidth="126.0" text=" ID" />
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="163.0" prefWidth="121.0">
+                                       <children>
+                                          <ListView fx:id="lstId" layoutX="-2.0" layoutY="-72.0" prefHeight="163.0" prefWidth="121.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                        <SplitPane dividerPositions="0.11904761904761904" layoutX="125.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="296.0" prefWidth="202.0">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                 <children>
+                                    <Label layoutX="1.0" layoutY="1.0" prefHeight="27.0" prefWidth="131.0" text="Latch Table" />
+                                 </children>
+                              </AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                 <children>
+                                    <TableView fx:id="tvLatchTable" layoutY="-4.0" prefHeight="243.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                      <columns>
+                                        <TableColumn prefWidth="96.0" text="C1" />
+                                        <TableColumn prefWidth="103.0" text="C2" />
+                                      </columns>
+                                    </TableView>
+                                 </children>
+                              </AnchorPane>
+                          </items>
+                        </SplitPane>
+                        <AnchorPane layoutY="218.0" prefHeight="78.0" prefWidth="123.0">
+                           <children>
+                              <Button fx:id="btnOneStep" layoutY="22.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="123.0" text="One step" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      
+                                                   </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </GridPane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
